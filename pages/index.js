@@ -39,16 +39,25 @@ export default function Home() {
         <div className="pb-2">OUR SOCIAL MEDIA</div>
         <div className="flex gap-2 text-2xl">
           <div className="cursor-pointer">
-            <BsTwitter />
+            <Link href="https://twitter.com/">
+              <BsTwitter />
+            </Link>
           </div>
           <div className="cursor-pointer">
-            <BsFacebook />
+            <Link href="https://www.facebook.com/">
+              <BsFacebook />
+            </Link>
+          </div>
+
+          <div className="cursor-pointer">
+            <Link href="https://www.instagram.com/">
+              <BsInstagram />
+            </Link>
           </div>
           <div className="cursor-pointer">
-            <BsInstagram />
-          </div>
-          <div className="cursor-pointer">
-            <BsGithub />
+            <Link href="https://www.github.com/">
+              <BsGithub />
+            </Link>
           </div>
         </div>
       </div>
